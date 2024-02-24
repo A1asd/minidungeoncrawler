@@ -1,0 +1,58 @@
+html, body {
+	background-color: #404040;
+	color: #cdcdcd;
+}
+
+#root {
+	height: 100vh;
+}
+
+main {
+	display: grid;
+	grid-template-areas:
+		'area player player'
+		'area map population'
+		'chat chat population';
+	grid-template-columns: 2fr 1fr 2fr;
+	grid-template-rows: 2fr 0.5fr 1fr 2fr;
+	height: 100%;
+}
+
+#area-window {
+	grid-area: area;
+}
+
+#chat-window {
+	grid-area: chat;
+}
+
+#player-window {
+	grid-area: player;
+	display: grid;
+	grid-template-areas:
+		'player-avatar player-stats player-stats player-stats'
+		'player-equipment player-equipment player-inventory player-inventory'
+		'group group group group';
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 2fr 2fr 1fr;
+}
+
+#population-window {
+	grid-area: population;
+}
+
+#mapField {
+	grid-area: map;
+	justify-self: center;
+	display:grid;
+	grid-template-columns: repeat(5, 50px);
+	grid-auto-rows: 50px;
+}
+
+#login-form {
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	background-color: white;
+	padding: 20px;
+}

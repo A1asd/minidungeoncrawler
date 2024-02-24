@@ -1,0 +1,19 @@
+#root.light {
+	--background-color: #ffffff;
+	--text-color: #333333;
+	--header-separator: lightgray;
+	--text-emphasized: white;
+	--background-emphasized: #333333;
+	--active-element-marker: #333333;
+	--mouse-wheel-indicator: #efefef;
+}
+
+#root.dark {
+	--background-color: #36363a;
+	--text-color: #afafaf;
+	--header-separator: #535353;
+	--text-emphasized: #36363a;
+	--background-emphasized: #afafaf;
+	--active-element-marker: #535353;
+	--mouse-wheel-indicator: #6c6c6c;
+}

@@ -1,0 +1,43 @@
+{ "compressionlevel":-1,
+ "height":12,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[33, 33, 33, 33, 33, 33, 33, 33, 33,
+            33, 33, 33, 33, 131, 33, 33, 33, 33,
+            33, 33, 33, 33, 163, 33, 33, 33, 33,
+            33, 33, 33, 229, 229, 229, 33, 33, 33,
+            33, 33, 229, 229, 33, 33, 230, 33, 33,
+            33, 33, 33, 229, 229, 229, 229, 33, 33,
+            33, 33, 33, 33, 33, 33, 33, 33, 33,
+            33, 33, 33, 33, 130, 130, 33, 33, 33,
+            33, 33, 33, 231, 162, 162, 243, 33, 33,
+            33, 33, 33, 229, 229, 229, 368, 33, 33,
+            33, 33, 33, 33, 33, 33, 33, 33, 33,
+            33, 33, 33, 33, 33, 33, 33, 33, 33],
+         "height":12,
+         "id":1,
+         "name":"Kachelebene 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":9,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":8,
+ "nextobjectid":3,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"dungeon.json"
+        }],
+ "tilewidth":16,
+ "type":"map",
+ "version":"1.10",
+ "width":9
+}

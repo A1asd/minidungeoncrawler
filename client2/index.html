@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<main>
+			<form id="login-form">
+				<input id="username-field" type="text" placeholder="username" />
+				<input id="password-field" type="password" placeholder="password" />
+				<input type="button" onclick="login()" value="login">
+			</form onsubmit="login()">
+			<div id="mapField" style="display:grid; grid-template-columns: repeat(3, 50px); grid-auto-rows: 50px;">
+			</div>
+			<div id="current-location">
+				<div id="current-location-enemies"></div>
+				<div id="current-location-nonplayers"></div>
+				<div id="current-location-allies"></div>
+				<div id="current-location-players"></div>
+			</div>
+			<div id="chat-window">
+				<div id="chat-messages"></div>
+				<input id="chat-message-input" type="text" placeholder="chat message" />
+				<input type="button" onclick="chat()" value="send">
+			</div>
+		</main>
+		<script src="src/app.js"></script>
+	</body>
+</html>

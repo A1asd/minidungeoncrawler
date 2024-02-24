@@ -1,0 +1,25 @@
+#player-avatar {
+	grid-area: player-avatar;
+}
+
+#player-stats {
+	grid-area: player-stats;
+}
+
+#player-equipment {
+	grid-area: player-equipment;
+}
+
+#player-inventory {
+	grid-area: player-inventory;
+}
+
+#group-window {
+	grid-area: group;
+}
+
+#player-footer {
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+}

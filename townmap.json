@@ -1,0 +1,39 @@
+{ "compressionlevel":-1,
+ "height":8,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[2169, 2169, 2169, 2169, 2169, 2169, 2169, 2169, 2169,
+            2169, 2169, 2169, 2169, 2169, 2169, 2169, 2169, 2169,
+            2169, 2169, 45, 46, 114, 115, 116, 2169, 2169,
+            2169, 2169, 2053, 2054, 130, 131, 132, 2169, 2169,
+            2169, 2169, 1908, 2053, 2054, 1901, 1902, 2169, 2169,
+            2169, 2169, 1924, 1902, 1917, 1917, 1918, 2169, 2169,
+            2169, 2169, 2169, 2169, 2169, 2169, 2169, 2169, 2169,
+            2169, 2169, 2169, 2169, 2169, 2169, 2169, 2169, 2169],
+         "height":8,
+         "id":1,
+         "name":"Kachelebene 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":9,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":2,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"town.json"
+        }],
+ "tilewidth":16,
+ "type":"map",
+ "version":"1.10",
+ "width":9
+}

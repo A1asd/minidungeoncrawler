@@ -1,0 +1,35 @@
+html, body {
+	height: 100%;
+	background-color: #404040;
+	color: #cdcdcd;
+}
+
+main {
+	display: grid;
+	grid-template-areas:
+	'location location'
+	'chat map';
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 2fr 1fr;
+	height: 100%;
+}
+
+#current-location {
+	grid-area: location;
+}
+
+#chat-window {
+	grid-area: chat;
+}
+
+#mapField {
+	grid-area: map;
+}
+
+#login-form {
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	background-color: white;
+	padding: 20px;
+}

@@ -1,0 +1,76 @@
+{
+	"healing_fountain": {
+		"description": "Das Wasser wabert und glitzert",
+		"actions": [
+			{
+				"id": "healing_fountain_drink",
+				"label": "trinken"
+			}
+		]
+	},
+	"healing_fountain_hardmode": {
+		"description": "Der Brunnen sieht instabil aus. Mit einem Hammer könnte man ihn sicher zerschlagen",
+		"actions": [
+			{
+				"id": "healing_fountain_destroy",
+				"label": "zerschlagen",
+				"requirement": {
+					"type": "item_requirement",
+					"operator": "has",
+					"value": "hammer"
+				}
+			}
+		]
+	},
+	"door_1": {
+		"description": "Hinter Stroh versteckt, siehst du eine Tür",
+		"actions": [
+			{
+				"id": "door_1_action_open",
+				"label": "aufschließen",
+				"requirement": {
+					"type": "item_requirement",
+					"operator": "has",
+					"value": "key"
+				}
+			}
+		],
+		"requirement": {
+			"type": "stat_requirement",
+			"operator": ">=",
+			"stat": "perception",
+			"value": "1"
+		}
+	},
+	"door_2": {
+		"description": "Vor dir befindet sich die Tür aus der du hierher gekommen bist",
+		"actions": [
+			{
+				"id": "door_2_action_open",
+				"label": "aufschließen"
+			}
+		]
+	},
+	"questboard": {
+		"description": "Das Auftragshaus befindet sich vor dir",
+		"actions": [
+			{
+				"id": "select_dungeon_1",
+				"label": "Starte Dungeon #1"
+			}
+		]
+	},
+	"staircase": {
+		"description": "Hier geht es runter zu den Dungeons. Um einen Dungeon betreten zu können, nimm zuerst einen Auftrag am Auftragshaus an.",
+		"actions": [
+			{
+				"id": "start_selected_dungeon",
+				"label": "Den Dungeon betreten",
+				"requirement": {
+					"type": "quest_requirement",
+					"operator": "any"
+				}
+			}
+		]
+	}
+}

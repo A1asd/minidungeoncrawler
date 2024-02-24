@@ -1,0 +1,18 @@
+{
+	"gate-keeper": {
+		"hp": 8,
+		"attack": 3
+	},
+	"empty-shell": {
+		"hp": 15,
+		"attack": 2
+	},
+	"snakes": {
+		"hp": 4,
+		"attack": 3
+	},
+	"dungeon-rats": {
+		"hp": 1,
+		"attack": 1
+	}
+}
